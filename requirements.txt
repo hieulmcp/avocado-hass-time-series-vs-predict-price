@@ -6,7 +6,6 @@ matplotlib
 scipy
 seaborn
 sklearn
-pandas_profiling
 xgboost
 statsmodels
 wheel   ##==0.24.0##
