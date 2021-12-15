@@ -35,18 +35,18 @@ I. TỔNG QUAN VỀ HỆ THỐNG DỮ LIỆU
 	
 **Yêu cầu 4:** Hãy chọn ra 1 vùng (Trong danh sách các vùng bơ "Hass" đang kinh doanh) mà bạn cho rằng trong tương lai có thể trong trọt, sản xuất kinh doanh (organic và/ hoặc Conventional Avocado). Hãy chứng minh đều này bằng cách triển khai các bài toán như đã với vùng california
 
-**II. TỔNG QUAN VỀ THỊ TRƯỜNG**
+II. TỔNG QUAN VỀ THỊ TRƯỜNG
 
-**Thị trường Hoa Kỳ**
+1. Thị trường Hoa Kỳ
 ![image](https://user-images.githubusercontent.com/96172322/146219559-85c307fa-556c-4072-9b00-80432fa5d0a4.png)
-**Mục tiêu và cấn tiếp cận**
+2. Mục tiêu và cấn tiếp cận
 ![image](https://user-images.githubusercontent.com/96172322/146219587-b85199bc-f38e-4d9d-a716-9d44f183cce3.png)
-**Ai là người và cần gì ?**
+3. Ai là người và cần gì ?
 ![image](https://user-images.githubusercontent.com/96172322/146219616-f0145c90-5c86-4d10-88cc-9381dcf29891.png)
-**Kết luận**
+4. Kết luận
 ![image](https://user-images.githubusercontent.com/96172322/146219675-8c9bb1a7-d192-411e-b309-63b4a0b3aeaa.png)
 
-**III. HƯỚNG DẪN SỬ DỤNG  VÀ CHỌN CÁC TÍNH NĂNG DỰ ĐOÁN GIÁ BƠ	**			
+III. HƯỚNG DẪN SỬ DỤNG  VÀ CHỌN CÁC TÍNH NĂNG DỰ ĐOÁN GIÁ BƠ			
 				
 ![image](https://user-images.githubusercontent.com/96172322/146219703-b3f3e054-c3b0-4d2e-828d-ceac84ca4a2e.png)
 
