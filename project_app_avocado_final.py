@@ -80,10 +80,10 @@ try:
     if choice == 'Nhìn chung về bơ hass':
        
         st.markdown("<h1 style='text-align: center; color: Yellow;'>HƯỚNG DẪN CHO NGƯỜI DÙNG</h1>", unsafe_allow_html=True)
-        video_file = open('video/Huong_dan_su_dung.webm', 'rb')
-        video_bytes = video_file.read()
-        st.video(video_bytes)
-        st.write(" ")
+        #video_file = open('video/Huong_dan_su_dung.webm', 'rb')
+        #video_bytes = video_file.read()
+        #st.video(video_bytes)
+        #st.write(" ")
 
     elif choice == 'Tổng quan và nghiên cứu thị trường':
         
