@@ -78,24 +78,12 @@ try:
     choice = st.sidebar.radio("Chọn nội dung mà bạn muốn xem ?",("Nhìn chung về bơ hass","Tổng quan và nghiên cứu thị trường", "Model/Evaluate predict avocado prices", 'Predict avocado prices', "Time series", "Kết luận và hướng phát triển dự án"))
 
     if choice == 'Nhìn chung về bơ hass':
-        st.markdown("<h1 style='text-align: center; color: Yellow;'>AVOCADO HASS MEXICO</h1>", unsafe_allow_html=True)
-        video_file = open('video/video.webm', 'rb')
-        video_bytes = video_file.read()
-        st.video(video_bytes)
-        st.write(" ")
-
-
+       
         st.markdown("<h1 style='text-align: center; color: Yellow;'>HƯỚNG DẪN CHO NGƯỜI DÙNG</h1>", unsafe_allow_html=True)
         video_file = open('video/Huong_dan_su_dung.webm', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
         st.write(" ")
-        
-        st.markdown("<h1 style='text-align: center; color: Yellow;'>TỔNG QUAN DỰ ÁN</h1>", unsafe_allow_html=True)
-        video_file = open('video/Tong_quan_ve_du_an.mp4', 'rb')
-        video_bytes = video_file.read()
-
-        st.video(video_bytes)
 
     elif choice == 'Tổng quan và nghiên cứu thị trường':
         
