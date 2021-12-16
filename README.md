@@ -2,6 +2,9 @@ AVOCADO HASS TIME SERIES VÀ PREDICT PRICE
 
 ![predict_avocado](https://user-images.githubusercontent.com/96172322/146311975-92cf775d-ea85-4766-8b58-70af75a4f98b.png)
 
+https://avocado-hass.herokuapp.com/ deployed to Heroku
+
+Please change setting to theme dark
 
 I. TỔNG QUAN VỀ HỆ THỐNG DỮ LIỆU
 
