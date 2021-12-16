@@ -437,10 +437,10 @@ elif choice == 'Time series':
             st.pyplot()
             st.write(" ")
 
-            st.markdown("<h5 style='text-align: left; color: Aqua;'>5. Seasonality</h5>", unsafe_allow_html=True)
-            dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
-            st.pyplot()
-            st.write(" ")
+            #st.markdown("<h5 style='text-align: left; color: Aqua;'>5. Seasonality</h5>", unsafe_allow_html=True)
+            #dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
+            #st.pyplot()
+            #st.write(" ")
             #### -> Using weekly seasonality there are smaller residuals
             s = 6
             st.write(" ")
@@ -660,7 +660,7 @@ elif choice == 'Time series':
             end = date_
             trend, line = ser.fit_trend(data_processing, degree=1, plot=True, figsize=(15,5))
             res_sup = ser.resistence_support(data_processing, window=30, trend=False, plot=True, figsize=(15,5))
-            dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
+            #dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
             s = 6
             ts_train, ts_test = ser.split_train_test(data_processing, exog=None, test="2017-08-27", plot=True, figsize=(15,5))
 
@@ -860,7 +860,7 @@ elif choice == 'Time series':
             end = date_
             trend, line = ser.fit_trend(data_processing, degree=1, plot=True, figsize=(15,5))
             res_sup = ser.resistence_support(data_processing, window=30, trend=False, plot=True, figsize=(15,5))
-            dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
+            #dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
             s = 6
             ts_train, ts_test = ser.split_train_test(data_processing, exog=None, test="2017-08-27", plot=True, figsize=(15,5))
 
@@ -982,7 +982,7 @@ elif choice == 'Time series':
             end = date_
             trend, line = ser.fit_trend(data_processing, degree=1, plot=True, figsize=(15,5))
             res_sup = ser.resistence_support(data_processing, window=30, trend=False, plot=True, figsize=(15,5))
-            dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
+            #dic_decomposed = ser.decompose_ts(data_processing, s=6, figsize=(15,10))
             s = 6
             ts_train, ts_test = ser.split_train_test(data_processing, exog=None, test="2017-08-27", plot=True, figsize=(15,5))
 
