@@ -1,5 +1,8 @@
 AVOCADO HASS TIME SERIES VÀ PREDICT PRICE
 
+Trước khi vào Heroku muốn giao diện đẹp mọi người chuyển giúp mình theo hình bên dưới
+![image](https://user-images.githubusercontent.com/96172322/146321446-1ca27d69-ec35-4554-b292-61f2b93117cd.png)
+
 ![predict_avocado](https://user-images.githubusercontent.com/96172322/146311975-92cf775d-ea85-4766-8b58-70af75a4f98b.png)
 
 https://avocado-hass.herokuapp.com/ deployed to Heroku
