@@ -9,7 +9,6 @@ seaborn
 sklearn
 pmdarima
 arch
-tensorflow
 tslearn
 statsmodels
 wheel   ##==0.24.0##
