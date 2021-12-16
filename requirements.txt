@@ -4,6 +4,7 @@ pandas
 datetime
 matplotlib
 scipy
+shap
 seaborn
 sklearn
 statsmodels
