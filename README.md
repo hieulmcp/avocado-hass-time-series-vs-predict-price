@@ -9,6 +9,12 @@ https://avocado-hass.herokuapp.com/ deployed to Heroku
 
 Please change setting to theme dark
 
+Nếu trường muốn coi trên máy local host thì làm các bước sau:
+
+Bước 1: Down code trên github về
+Bước 2: Vào trang streamlit để thực hiện theo hướng dẫn của treamlit: https://docs.streamlit.io/library/get-started/installation
+
+
 I. TỔNG QUAN VỀ HỆ THỐNG DỮ LIỆU
 
 1. Mục đích
