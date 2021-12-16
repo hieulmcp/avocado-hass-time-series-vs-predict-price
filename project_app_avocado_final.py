@@ -149,10 +149,10 @@ elif choice == 'Model/Evaluate predict avocado prices':
 
     fig2 = pre.evaluate_regr_model(y_test, predicted, figsize=(25,5))
 
-    i = 1
-    print("True:", "{:,.0f}".format(y_test[i]), "--> Pred:", "{:,.0f}".format(predicted[i]))
+    #i = 1
+    #print("True:", "{:,.0f}".format(y_test[i]), "--> Pred:", "{:,.0f}".format(predicted[i]))
 
-    pre.explainer_shap(model, lst_name, X_instance=X_test[i], X_train=None, task="regression", top=10)
+    #pre.explainer_shap(model, lst_name, X_instance=X_test[i], X_train=None, task="regression", top=10)
 
 
     st.markdown("<h1 style='text-align: Center; color: Yellow;'>MÔ HÌNH DỰ ĐOÁN GIÁ BƠ</h1>", unsafe_allow_html=True)
