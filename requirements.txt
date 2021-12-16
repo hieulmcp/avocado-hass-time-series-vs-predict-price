@@ -8,6 +8,7 @@ shap
 seaborn
 sklearn
 pmdarima
+arch
 statsmodels
 wheel   ##==0.24.0##
 pystan==2.19.1.1
