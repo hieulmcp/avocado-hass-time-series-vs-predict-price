@@ -9,6 +9,8 @@ seaborn
 sklearn
 pmdarima
 arch
+tensorflow
+tslearn
 statsmodels
 wheel   ##==0.24.0##
 pystan==2.19.1.1
