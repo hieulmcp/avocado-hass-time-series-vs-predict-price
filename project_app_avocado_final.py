@@ -203,15 +203,15 @@ elif choice == 'Model/Evaluate predict avocado prices':
 
     st.pyplot()
     
-    st.markdown("<h3 style='text-align: left; color: Aqua;'>7. Ảnh hưởng các biến</h3>", unsafe_allow_html=True)
-    i = 1
-    print("True:", "{:,.0f}".format(y_test[i]), "--> Pred:", "{:,.0f}".format(predicted[i]))
+    #st.markdown("<h3 style='text-align: left; color: Aqua;'>7. Ảnh hưởng các biến</h3>", unsafe_allow_html=True)
+    #i = 1
+    #print("True:", "{:,.0f}".format(y_test[i]), "--> Pred:", "{:,.0f}".format(predicted[i]))
 
-    pre.explainer_shap(model, lst_name, X_instance=X_test[i], X_train=None, task="regression", top=10)
-    st.pyplot()
-    st.write(" ")
+    #pre.explainer_shap(model, lst_name, X_instance=X_test[i], X_train=None, task="regression", top=10)
+    #st.pyplot()
+    #st.write(" ")
 
-    st.markdown("<h3 style='text-align: left; color: Aqua;'>8. Kết luận</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: left; color: Aqua;'>7. Kết luận</h3>", unsafe_allow_html=True)
     st.markdown("- Doanh nghiệp có thể sử dụng được model này để dự báo")
     st.write(" ")
 
