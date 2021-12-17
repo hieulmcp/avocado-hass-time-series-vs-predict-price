@@ -246,12 +246,7 @@ elif choice == 'Predict avocado prices':
     X_test = X_test[lst_name].values
     y_test = y_test.values
 
-    model_rf = pre.RandomForestRegressor(n_estimators=500, 
-                                 min_samples_split=2, 
-                                 min_samples_leaf=1, 
-                                 max_features='sqrt', 
-                                 max_depth=None, 
-                                 bootstrap=False)
+    model_rf = pre.ExtraTreesRegressor()
     model_rf = model_rf.fit(X_train, y_train)
 
     my_model = model_rf
